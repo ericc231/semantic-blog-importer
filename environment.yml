@@ -1,0 +1,26 @@
+name: wp2notion
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - python-dotenv
+  - pyyaml
+  - beautifulsoup4
+  - lxml
+  - jieba
+  - slugify
+  - xmltodict
+  - pip:
+      - frontmatter
+      - notion-client
+      - tqdm
+      - boto3                 # ✅ 用於 R2 上傳
+      - transformers
+      - torch                 # ✅ M3 Max 支援 GPU（MPS）
+      - ckip-transformers
+      - keybert
+      - sentence-transformers

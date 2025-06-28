@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS trash
+.DS_Store
+
+# 虛擬環境
+venv/
+.env
+
+# Jupyter notebook checkpoint
+.ipynb_checkpoints/
+
+# 本地設定
+config.yaml
+.env
+.env.*
+
+# 匯出檔案（視情況而定是否納入版本）
+exported_md/
+dataset/
+
+# 圖片資源（若推送至 R2，不納入 git）
+assets/r2/
+assets/pages/
+
+# VSCode 設定檔（可選）
+.vscode/
