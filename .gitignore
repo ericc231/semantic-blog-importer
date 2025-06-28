@@ -27,3 +27,14 @@ assets/r2/
 
 # VSCode 設定檔（可選）
 .vscode/
+
+# 自行下載字型檔
+fonts/
+
+# config
+config/stopwords_full.txt
+config/custom_stopwords.txt
+config/stopwords_traditional.txt
+
+
+
