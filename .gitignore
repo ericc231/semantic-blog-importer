@@ -23,7 +23,7 @@ dataset/
 
 # 圖片資源（若推送至 R2，不納入 git）
 assets/r2/
-assets/pages/
+# assets/pages/
 
 # VSCode 設定檔（可選）
 .vscode/
